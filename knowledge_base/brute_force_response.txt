@@ -1,0 +1,24 @@
+
+BRUTE-FORCE LOGIN INVESTIGATION
+Source: Project demonstration playbook
+
+Indicators:
+Multiple failed authentication attempts from one IP address
+may indicate password guessing or a brute-force attack.
+
+Investigation:
+1. Review timestamps and login frequency.
+2. Check whether the source IP is known or trusted.
+3. Look for successful logins after repeated failures.
+4. Review affected accounts and authentication logs.
+5. Check whether MFA was enabled.
+
+Response:
+1. Notify the responsible security analyst.
+2. Consider temporary access restrictions if justified.
+3. Review account security and reset credentials if compromised.
+4. Document the findings and response actions.
+
+Caution:
+Repeated failures alone do not confirm an attack.
+Any access-blocking action requires human approval.

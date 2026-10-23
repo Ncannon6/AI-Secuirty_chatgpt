@@ -1,0 +1,21 @@
+
+# API keys and environment variables
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+.venv312/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Local ChromaDB database
+chroma_data/
+
+# IDE files
+.idea/
+
+# Generated reports
+incident_report.txt
